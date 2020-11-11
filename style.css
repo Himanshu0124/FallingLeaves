@@ -22,11 +22,11 @@ section
     justify-content: center;
     align-items: center;
 }
-section h2
+section h3
 {
    color: rgb(#333,#000);
    opacity: 60%;
-   font-size:8em;
+   font-size:6em;
    text-transform: uppercase;
 }
 section .set
@@ -139,7 +139,7 @@ section .set div:nth-child(8)
 
 @media only screen and (max-width: 768px)
 {
-    section h2
+    section h3
 {
    color: rgb(#333,#000);
    opacity: 60%;
