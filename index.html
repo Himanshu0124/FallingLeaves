@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaves Anmation Effects</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body onload="myFunction()">
+    <div id="loader">
+    </div>
+
+    <div id="popUpmain" style="display: none;">
+        <div id="popUp">
+            <h1 id="newsHeading">Subcribe to our NewsLetter</h1>
+            <input type="email" name="email" id="emailId" placeholder="Enter your Email"> <br>
+            <button class="submitId">Subscribe Us</button>
+            <button class="submitId"> No Thanks</button>
+        </div>
+    </div>
+ <section>
+<h1>New Year Falling Leaves</h1>
+<div class="set">
+    <div><img src="leaves1.png" alt="lea"></div>
+    <div><img src="leaves2.png" alt="first"></div>
+    <div><img src="leaves3.png" alt="first"></div>
+    <div><img src="leaves4.png" alt="first"></div>
+    <div><img src="leaves1.png" alt="first"></div>
+    <div><img src="leaves2.png" alt="first"></div>
+    <div><img src="leaves3.png" alt="first"></div>
+    <div><img src="leaves4.png" alt="first"></div> 
+</div>
+<div class="set set2">
+    <div><img src="leaves1.png" alt="first"></div>
+    <div><img src="leaves2.png" alt="first"></div>
+    <div><img src="leaves3.png" alt="first"></div>
+    <div><img src="leaves4.png" alt="first"></div> 
+    <div><img src="leaves1.png" alt="first"></div>
+    <div><img src="leaves2.png" alt="first"></div>
+    <div><img src="leaves3.png" alt="first"></div>
+    <div><img src="leaves4.png" alt="first"></div>
+ 
+</div>
+<div class="set set3">
+    <div><img src="leaves1.png" alt="first"></div>
+    <div><img src="leaves2.png" alt="first"></div>
+    <div><img src="leaves3.png" alt="first"></div>
+    <div><img src="leaves4.png" alt="first"></div> 
+    <div><img src="leaves1.png" alt="first"></div>
+    <div><img src="leaves2.png" alt="first"></div>
+    <div><img src="leaves3.png" alt="first"></div>
+    <div><img src="leaves4.png" alt="first"></div>
+</div>
+ </section>   
+<br>
+ <iframe width="620" height="340" src="https://www.youtube.com/embed/2lfETGiIDf8" frameborder="0" 
+ allow="autoplay; encrypted-media" allowfullscreen>   
+   </iframe>
+
+   <h3>All rights are reserved by New Year.</h3>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script>
+       var preLoader = document.getElementById('loader');
+
+       function myFunction()
+       {
+           preLoader.style.display = 'none';
+       };
+
+       
+       $(document).ready(function(){
+           setTimeout(function(){
+            $('#popUpmain').css('display' , 'block');}, 5000);
+       });
+       $('.submitId').click(function(){
+        $('#popUpmain').css('display' , 'none');  
+       });
+   </script>
+</body>
+</html>
